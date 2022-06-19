@@ -1,10 +1,23 @@
 import React from "react";
 import './Style.css';
+import ArowRight from './images/material-right.svg';
+import ArowLeft from './images/material-left.svg';
+
 
 export default ({title, items})=>{
     return (
         <div className="movieRow">
-            {title}
+            <div className="title--row">{title}</div>
+            
+
+            <div className="movieRow--left">
+                <img src={ArowLeft}></img>
+            </div>
+            <div className="movieRow--right">
+                <img src={ArowRight}></img>
+            </div>
+            
+            
             <div className="movieRow--listarea">
                 <div className="movieRow--list">
                     {items.results.length > 0 && items.results.map((item, key)=>(
