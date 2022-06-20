@@ -67,3 +67,8 @@
 }
 
 
+@media (max-width:760px) {
+    .movieRow--left img, .movieRow--right img {
+        opacity: 1;
+    }
+}
