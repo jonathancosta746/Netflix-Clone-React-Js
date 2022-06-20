@@ -13,16 +13,12 @@
     padding-left: 30px;
 }
 
-.movieRow--list{
-    width: 9999999999px;
-}
+/*============== Itens da Lista ================*/
 
 .movieRow--item{
     display: inline-block;
     width: 150px;    
 }
-
-/*============== Itens da Lista ================*/
 
 .movieRow--item img{
     width: 100%;
@@ -65,4 +61,9 @@
 .movieRow:hover .movieRow--left img, .movieRow:hover .movieRow--right img{
     opacity: 1;
 }
+
+.movieRow--list {
+    transition: all ease 0.5s;
+}
+
 
