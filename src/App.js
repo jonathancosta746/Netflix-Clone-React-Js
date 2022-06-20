@@ -4,6 +4,7 @@ import Tmdb from './Tmdb';
 import Header from './components/Header';
 import FeaturedMovie from './components/FeaturedMovie';
 import MovieRow from './components/MovieRow';
+import Loading from './Images/loading.gif';
 
 export default () => {
 
@@ -60,6 +61,13 @@ export default () => {
          
         ))}
       </section>
+      
+      
+      {movieList.length <= 0 && 
+        <div className="loading">
+          <img src={Loading}></img>
+        </div>
+      }
     </div>
   );
 }
