@@ -1,7 +1,7 @@
 import React from "react";
 import './Style.css';
-import ArowRight from './images/material-right.svg';
-import ArowLeft from './images/material-left.svg';
+import ArowRight from './images/material-right.png';
+import ArowLeft from './images/material-left.png';
 
 
 export default ({title, items})=>{
