@@ -5,6 +5,8 @@ import ArowLeft from './images/material-left.png';
 
 
 export default ({title, items})=>{
+
+//============== Função Avançar filmes na lista ============
     const [scrollX, setScrollX] = useState(0)
     const handleLeftArrow = () => {
         let x = scrollX + Math.round(window.innerWidth / 2);
@@ -39,7 +41,7 @@ export default ({title, items})=>{
                 <div className="movieRow--list" style={{
                     marginLeft: scrollX,
                     width: items.results.length * 150
-                }}>
+                }}>                   
                     {items.results.length > 0 && items.results.map((item, key)=>(
                         <div key={key} className="movieRow--item">
                             <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}/>

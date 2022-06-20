@@ -90,7 +90,18 @@
         height: 95vh;
     }
 
+    .featured--horizontal {
+        
+        background: linear-gradient(to bottom, #111 0%, transparent 90%);
+        
+    }
+
+    .featured--vertical {
+        background: linear-gradient(to top, #111 0%, transparent 90%);
+    }
+
     .featured--name{
+
         font-size: 40px;
     }
 

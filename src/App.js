@@ -19,16 +19,18 @@ export default () => {
       setMovieList(list);
 
       //Pegando o filme em destaque(Featured)
-      let originals = list.filter(i => i.slug === 'originals');
-      let randomChosen = Math.floor(Math.random() * (originals[0].items.results.length - 1));
-      let chosen = originals[0].items.results[randomChosen];
-      let chosenInfo = await Tmdb.getMovieInfo(chosen.id, 'tv');
+      let trending = list.filter(i => i.slug === 'trending');
+      let randomChosen = Math.floor(Math.random() * (trending[0].items.results.length - 1));
+      let chosen = trending[0].items.results[randomChosen];
+      let chosenInfo = await Tmdb.getMovieInfo(chosen.id, 'movie');
       setFeaturedData(chosenInfo);
+      
     }
 
     loadAll();
   }, []);
-
+  
+  //função fundo preto da NavBar no momento da rolagem do scroll
   useEffect(()=>{
     const scrollListener = () => {
       if(window.scrollY > 10 ) {

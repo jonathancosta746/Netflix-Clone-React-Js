@@ -12,14 +12,14 @@ export default {
     getHomeList: async () => {
         return [
             {
-                slug: 'originals',
-                title: 'Originais do Netflix',
-                items: await basicFetch(`/discover/tv?with_network=213&language=pt-BR&api_key=${API_KEY}`)
-            },
-            {
                 slug: 'trending',
                 title: 'Recomendados para você',
                 items: await basicFetch(`/trending/all/week?language=pt-BR&api_key=${API_KEY}`)
+            },
+            {
+                slug: 'originals',
+                title: 'Originais do Netflix',
+                items: await basicFetch(`/discover/tv?with_network=213&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'toprated',
@@ -55,6 +55,9 @@ export default {
         ];
     },
 
+
+
+    //Função para localizar um item para ser exibido como Filme principal
     getMovieInfo: async (movieId, type) => {
         let info = {};
 
@@ -63,10 +66,10 @@ export default {
                 case 'movie':
                     info = await basicFetch(`/movie/${movieId}?language=pt-BR&api_key=${API_KEY}`);
                 break;
-
+                /*
                 case 'tv':
                     info = await basicFetch(`/tv/${movieId}?language=pt-BR&api_key=${API_KEY}`);
-                break;
+                break;*/
                 
                 default:
                     info = null;
