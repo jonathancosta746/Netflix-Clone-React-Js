@@ -17,11 +17,6 @@ export default {
                 items: await basicFetch(`/trending/all/week?language=pt-BR&api_key=${API_KEY}`)
             },
             {
-                slug: 'originals',
-                title: 'Originais do Netflix',
-                items: await basicFetch(`/discover/tv?with_network=213&language=pt-BR&api_key=${API_KEY}`)
-            },
-            {
                 slug: 'toprated',
                 title: 'Em alta',
                 items: await basicFetch(`/movie/top_rated?language=pt-BR&api_key=${API_KEY}`)
@@ -58,7 +53,6 @@ export default {
     
 
 
-    //Função para localizar um item para ser exibido como Filme principal
     getMovieInfo: async (movieId, type) => {
         let info = {};
 
