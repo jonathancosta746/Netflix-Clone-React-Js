@@ -1,10 +1,10 @@
 import React, {useState} from "react";
 import './Style.css';
-import ArowRight from './images/material-right.png';
-import ArowLeft from './images/material-left.png';
+import ArrowRight from './images/material-right.png';
+import ArrowLeft from './images/material-left.png';
 
 
-export default ({title, items})=>{
+export default ({title, items})  =>{
 
 //============== Função Avançar filmes na lista ============
     const [scrollX, setScrollX] = useState(0)
@@ -30,10 +30,10 @@ export default ({title, items})=>{
             
 
             <div className="movieRow--left" onClick={handleLeftArrow}>
-                <img src={ArowLeft}></img>
+                <img src={ArrowLeft} alt='Esquerda'></img>
             </div>
             <div className="movieRow--right" onClick={handleRightArrow}>
-                <img src={ArowRight}></img>
+                <img src={ArrowRight} alt='Direita'></img>
             </div>
             
             
