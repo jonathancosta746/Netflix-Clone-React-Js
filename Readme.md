@@ -1,11 +1,13 @@
 
 # Netflix Clone
 
-https://user-images.githubusercontent.com/26524921/174672780-310fab7d-3693-4ad1-97ee-3faa92f85c38.mp4
+
+https://user-images.githubusercontent.com/26524921/174922567-c50dee41-22d3-45b9-a10e-a0785514475b.mp4
+
 
 
 ## Tecnologias Usadas
-React Js e API(The Movie Data Base - TMBD)
+React Js e API (The Movie Data Base - TMBD)
 
 ## Como visualizar o projeto?
 Ao realizar clone no repositório, digite 'npm install' ou 'yarn install' caso use Yarn.
