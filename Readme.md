@@ -5,6 +5,12 @@
 https://user-images.githubusercontent.com/26524921/174922567-c50dee41-22d3-45b9-a10e-a0785514475b.mp4
 
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/26524921/174926922-dc3ecb2a-0caa-4e1b-b6cc-31d1eaf69db7.png">
+</p>
+
+![arremessando alto](https://user-images.githubusercontent.com/26524921/174926730-ca35dbe7-edd4-4d58-8ada-234984ee2e06.png)
+
 
 ## Tecnologias Usadas
 React Js e API (The Movie Data Base - TMBD)
