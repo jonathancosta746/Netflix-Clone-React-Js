@@ -4,6 +4,13 @@
 ## Como visualizar o projeto?
 Disponível do link https://62ff97415abd2c103be63935--admirable-valkyrie-dde845.netlify.app/
 
+ou
+
+Ao realizar clone no repositório, digite 'npm install' ou 'yarn install' caso use Yarn.
+
+## Tecnologias Usadas
+React Js e API (The Movie Data Base - TMBD)
+
 
 https://user-images.githubusercontent.com/26524921/174922567-c50dee41-22d3-45b9-a10e-a0785514475b.mp4
 
@@ -13,12 +20,6 @@ https://user-images.githubusercontent.com/26524921/174922567-c50dee41-22d3-45b9-
   <img src="https://user-images.githubusercontent.com/26524921/174926922-dc3ecb2a-0caa-4e1b-b6cc-31d1eaf69db7.png">
 </p>
 
-
-## Tecnologias Usadas
-React Js e API (The Movie Data Base - TMBD)
-
-## Como visualizar o projeto?
-Ao realizar clone no repositório, digite 'npm install' ou 'yarn install' caso use Yarn.
 
 
 ## Função barra escura ao ativar barra de rolagem
