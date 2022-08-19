@@ -2,7 +2,7 @@
 # Netflix Clone
 
 ## Como visualizar o projeto?
-Disponível do link https://62ff97415abd2c103be63935--admirable-valkyrie-dde845.netlify.app/
+Disponível do link https://netflix-clone-react-jsc.netlify.app/
 
 ou
 
