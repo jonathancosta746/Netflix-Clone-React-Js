@@ -4,7 +4,7 @@ import Logo from '../../Images/logo.png';
 import Users from '../../Images/Users/crazy.png';
 
 
-export default ({black}) => {
+const Header = ({black}) => {
     return (
         <header className={black ? 'blackground--color' : ''}>
             <div className="header--logo">
@@ -13,11 +13,13 @@ export default ({black}) => {
                 </a>
             </div>
             <div className="Header--user">
-            <a href="/">
+                <a href="/">
                     <img src={Users} alt="Usuário"></img>
                 </a>
             </div>
         </header>
     );
-}
+};
+
+export default Header
 

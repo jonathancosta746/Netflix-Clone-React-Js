@@ -1,7 +1,7 @@
 import React from "react";
 import './Style.css';
 
-export default ({item}) => {
+const FeaturedMovie = ({item}) => {
     //let firstDate = new Date(item.first_air_date);      Para Data de lançamento de Serie
     let firstDate = new Date(item.release_date);
     
@@ -41,4 +41,6 @@ export default ({item}) => {
             </div>
         </section>
     );
-}
+};
+
+export default FeaturedMovie

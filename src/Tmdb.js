@@ -8,7 +8,8 @@ const basicFetch = async (endpoint) => {
 }
 
 
-export default {
+const Tmdb = {
+
     getHomeList: async () => {
         return [
             {
@@ -50,8 +51,6 @@ export default {
         ];
     },
 
-    
-
 
     getMovieInfo: async (movieId, type) => {
         let info = {};
@@ -74,4 +73,6 @@ export default {
 
         return info;
     }
-}
+};
+
+export default Tmdb
