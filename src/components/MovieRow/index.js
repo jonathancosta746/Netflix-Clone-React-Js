@@ -4,7 +4,7 @@ import ArrowRight from './images/material-right.png';
 import ArrowLeft from './images/material-left.png';
 
 
-export default ({title, items})  =>{
+const MovieRow = ({title, items})  => {
 
 //============== Função Avançar filmes na lista ============
     const [scrollX, setScrollX] = useState(0)
@@ -44,11 +44,13 @@ export default ({title, items})  =>{
                 }}>                   
                     {items.results.length > 0 && items.results.map((item, key)=>(
                         <div key={key} className="movieRow--item">
-                            <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}/>
+                            <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt="Filme"/>
                         </div>
                     ))}  
                 </div>              
             </div>
         </div>
     );
-}
+};
+
+export default MovieRow

@@ -6,7 +6,7 @@ import FeaturedMovie from './components/FeaturedMovie';
 import MovieRow from './components/MovieRow';
 import Loading from './Images/loading.gif';
 
-export default () => {
+function App() {
 
   const [movieList, setMovieList] = useState([]);
   const [featuredData, setFeaturedData] = useState(null);
@@ -66,9 +66,11 @@ export default () => {
       
       {movieList.length <= 0 && 
         <div className="loading">
-          <img src={Loading}></img>
+          <img src={Loading} alt="loading"></img>
         </div>
       }
     </div>
   );
-}
+};
+
+export default App;
