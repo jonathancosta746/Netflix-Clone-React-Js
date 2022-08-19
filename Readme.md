@@ -45,6 +45,11 @@ Houve um problema de em alguns filmes a descrição ser muito grande quebrando o
 ![image](https://user-images.githubusercontent.com/26524921/174920316-dc824a0a-5940-4e9d-88d0-7c78bc7087aa.png)
 
 
+#
+Um pouco mais sobre o projeto neste [link](https://www.youtube.com/watch?v=A6O_-JCGnmA) no youtube.
+Para dúvidas ou sugestões poderá me contatar através do meu [email](mailto:jonathancosta746@gmail.com) ou [Linkedin](https://www.linkedin.com/in/jonathansantos-costa/).
+
+
 
 
 
