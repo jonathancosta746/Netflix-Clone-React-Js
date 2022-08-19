@@ -6,7 +6,7 @@ import Users from '../../Images/Users/crazy.png';
 
 export default ({black}) => {
     return (
-        <header className={black ? 'black' : ''}>
+        <header className={black ? 'blackground--color' : ''}>
             <div className="header--logo">
                 <a href="/">
                     <img src={Logo} alt="Netflix"></img>
