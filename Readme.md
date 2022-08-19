@@ -1,15 +1,17 @@
 
 # Netflix Clone
 
+## Como visualizar o projeto?
+Disponível do link https://62ff97415abd2c103be63935--admirable-valkyrie-dde845.netlify.app/
+
 
 https://user-images.githubusercontent.com/26524921/174922567-c50dee41-22d3-45b9-a10e-a0785514475b.mp4
 
+![arremessando alto](https://user-images.githubusercontent.com/26524921/174926730-ca35dbe7-edd4-4d58-8ada-234984ee2e06.png)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/26524921/174926922-dc3ecb2a-0caa-4e1b-b6cc-31d1eaf69db7.png">
 </p>
-
-![arremessando alto](https://user-images.githubusercontent.com/26524921/174926730-ca35dbe7-edd4-4d58-8ada-234984ee2e06.png)
 
 
 ## Tecnologias Usadas
