@@ -1,6 +1,9 @@
 
 # Netflix Clone
 
+![netflix](https://user-images.githubusercontent.com/26524921/210449653-407ce35f-5bfa-4db3-b265-841b600ae1ca.png)
+
+
 ## Como visualizar o projeto?
 Disponível do link https://netflix-clone-react-jsc.netlify.app/
 
